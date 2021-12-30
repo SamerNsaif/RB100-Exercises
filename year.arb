@@ -1,0 +1,8 @@
+movies = { 
+  :Samer => 1994,
+  :Jeneen => 1997,
+  :Jafra => 1985,
+}
+puts movies[:Jafra]
+puts movies[:Samer]
+puts movies[:Jeneen]
