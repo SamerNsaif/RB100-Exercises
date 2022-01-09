@@ -1,0 +1,19 @@
+puts "Please enter a 4-digit number."
+a = gets.chomp.to_i
+
+
+
+while a < 1000
+  puts "Please enter a number greater than 1000"
+  a = gets.chomp.to_i
+end
+
+thous = a/1000
+hund = a % 1000 / 100
+ten = a % 1000 % 100 / 10
+one = a % 10
+
+puts thous
+puts hund
+puts ten
+puts one
